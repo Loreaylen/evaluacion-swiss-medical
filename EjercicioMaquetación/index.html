@@ -6,14 +6,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejercicio de maquetación</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaTablet.css">
+  <link rel="stylesheet" href="mediaDesktop.css">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <h1 class="header__h1">What's in the box</h1>
-    <div class="header__div"><img src="./img/background.png" alt=""></div>
-    <p class="header__p">FARO Helmet, Navigation Remote,
+  <main class="main">
+    <section class="menu__section--titulo">
+      <h2 class="menu__h2 menu__h2--box seleccionado">What’s in the box</h2>
+      <h2 class="menu__h2 menu__h2--specs">Tech Specs</h2>
+      <img class="menu__h2--arrows" src="./img/vectores/Arrows.png" alt="arrows">
+    </section>
+  <div class="box">
+    <h1 class="box__h1">What's in the box</h1>
+    <div class="box__div">
+     
+      <ul class="box__ul">
+        <li class="box__li">FARO Helmet</li>
+        <li class="box__li">User manual</li>
+        <li class="box__li">Navigation Remote</li>
+        <li class="box__li">Rubber bands</li>
+        <li class="box__li">USB Type-C Charging Cable</li>
+      </ul>
+      <img src="./img/background.png" alt=""></div>
+    <p class="box__p">FARO Helmet, Navigation Remote,
       USB Type-C Charging Cable,
       Rubber Bands and User Manual.</p>
-  </header>
+  </div>
+
+    <div class="specs">
+  
+    <section class="specs__section"> 
+      <h1 class="specs__h1">Tech Specs</h1>
+    <article class="specs__article">
+      <div class="article__div">
+        <h3 class="article__h3">Front & rear lights</h3>
+        <div class="article__div--img"><img class="div__img--helmet" src="./img/vectores/helmet.png" alt=""><img class="div__img--arrow" src="./img/vectores/arrow.png" alt="arrow"></div>
+      </div>
+        <ul class="article__ul">
+          <li class="article__li"><strong>Total output</strong> +500 lumens</li>
+          <li class="article__li"><strong>Weight</strong> 580g *Medium size non-Mips</li>
+          <li class="article__li"><strong>Construction</strong> ABS + PS shell + EPS liner</li>
+          <li class="article__li"><strong>Ventilation</strong> Fixed (5 vents)</li>
+          <li class="article__li"><strong>Waterproofing</strong> I-PX6</li>
+          <li class="article__li"><strong>Certifications</strong> CPSC EN1078, AS NZS 2063:2008</li>
+        </ul>
+      
+    </article>
+    <article class="specs__article">
+      <div class="article__div">
+        <h3 class="article__h3">Companion App</h3>
+        <div class="article__div--img"><img class="div__img--app" src="./img/vectores/torch.png" alt="app icon"><img class="div__img--arrow" src="./img/vectores/arrow.png" alt="arrow"></div>
+      </div>
+        <ul class="article__ul">
+          <li class="article__li">Fall Detection</li>
+          <li class="article__li">Light Customization</li>
+          <li class="article__li">Ride Tracking</li>
+          <li class="article__li">Weather Responsive</li>
+          <li class="article__li">Ambient Light Responsive</li>
+          <li class="article__li">CO2 Prevention</li>
+          <li class="article__li">Daily Challenges</li>
+        </ul>
+      
+    </article>
+    <article class="specs__article">
+      <div class="article__div">
+        <h3 class="article__h3">Navigation remote</h3>
+        <div class="article__div--img"><img class="div__img--navigation" src="./img/vectores/navigation.png" alt="navigation icon"><img class="div__img--arrow" src="./img/vectores/arrow.png" alt="arrow"></div>
+      </div>
+        <ul class="article__ul">
+          <li class="article__li"><strong>Battery life</strong> 30 hs of continued use</li>
+          <li class="article__li"><strong>Battery type</strong> Rechargeable Lithium-ion</li>
+          <li class="article__li"><strong>Charging</strong> USB Type-C</li>
+          <li class="article__li"><strong>Dimensions</strong> 34x34x46mm</li>
+        </ul>
+     
+    </article>
+    <article class="specs__article">
+      <div class="article__div">
+        <h3 class="article__h3">Battery</h3>
+        <div class="article__div--img"><img class="div__img--battery" src="./img/vectores/battery.png" alt="battery icon"><img class="div__img--arrow" src="./img/vectores/arrow.png" alt="arrow"></div>
+      </div>
+        <ul class="article__ul">
+          <li class="article__li"><strong>Capacity</strong> 1850 MAh</li>
+          <li class="article__li"><strong>Type</strong> Rechargeable Lithium-ion</li>
+          <li class="article__li"><strong>Duration</strong> Up to 10hs</li>
+          <li class="article__li"><strong>Full Charge</strong> 3 hs</li>
+          <li class="article__li"><strong>Charging Port</strong> USB Type-C</li>
+        </ul>
+      
+    </article>
+  </section>
+    </div>
+  <!-- <script src="app.js"></script> -->
+</main>
 </body>
 </html>

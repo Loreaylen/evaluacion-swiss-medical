@@ -77,4 +77,16 @@
   .box__div img {
     left: 0;
   }
+
+  .box__ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 120px;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+
 }

@@ -1,4 +1,4 @@
-@media (min-width: 1068px) and  (max-width: 1500px) {
+@media (min-width: 1068px) and  (max-width: 1800px) {
 
   .main{
     max-width: 1140px;
@@ -61,17 +61,20 @@
   .box__div img {
     left: 0;
   }
-
+ 
   
   .box__ul{
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 120px;
+    top: 300px;
     z-index: 1000;
     height: 100%;
     width: 100%;
     gap: 20px;
 }
 
+.box__li {
+  list-style-type: none;
+}
 }

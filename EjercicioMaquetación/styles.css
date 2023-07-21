@@ -139,3 +139,12 @@ h2:not(.seleccionado){
  
 }
 
+.box__h1, .specs__h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  
+}
+

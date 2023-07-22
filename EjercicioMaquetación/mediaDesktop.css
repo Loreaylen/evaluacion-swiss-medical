@@ -37,7 +37,7 @@
     right: 20px;
   }
 
-  .box__div  {
+  .box__section {
     height: auto;
     width: 100%;
     position: relative;
@@ -115,7 +115,7 @@
 }
 
 .visible {
-  display: flex;
+  display: block;
 }
 
 }

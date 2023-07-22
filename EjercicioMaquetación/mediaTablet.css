@@ -1,4 +1,4 @@
-@media (min-width: 734px) and (max-width: 1068px) {
+@media (min-width: 735px) and (max-width: 1068px) {
 
   main{
     max-width: 810px;
@@ -42,7 +42,7 @@
     display: none;
   }
 
-  .box__div {
+  .box__section {
     height: auto;
     width: 100%;
     z-index: 100;

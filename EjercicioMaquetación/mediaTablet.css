@@ -28,13 +28,12 @@
   }
 
   .menu__h2--arrows {
-    height: 24px;
-    width: 24px;
+    /* height: 24px; */
+    /* width: 24px; */
     display: block;
     position: absolute;
-    right: 20px;
-  }
-
+    right: 0;
+}
   .specs__section {
     flex-direction: row;
     align-items: stretch;
@@ -101,10 +100,14 @@
     color: black;
   }
 
+  /*----FUNCIONALIDAD*/
 
+.invisible {
+  display:none;
+}
 
-.specs{
-  display: none;
+.visible {
+  display: block;
 }
 
 }

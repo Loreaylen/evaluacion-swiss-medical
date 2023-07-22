@@ -1,23 +1,13 @@
-@media (min-width: 734px) and (max-width: 1067px) {
+@media (min-width: 734px) and (max-width: 1068px) {
 
   main{
     max-width: 810px;
     margin: auto;
+    padding: 0 16px;
   }
 
   .box__p {
     display: none;
-  }
-
-  .box__div{
-    position: relative;
-  }
-
-  .box__ul {
-    /* position: absolute; */
-    display: flex;
-    flex-direction: column;
-    top: 30px;
   }
 
   h2:not(.seleccionado){
@@ -61,10 +51,37 @@
   }
 
   .box__img {
-    background-image: url('./img/background.png');
+    background-image: url(./img/background.png);
     width: 100%;
     height: 515px;
+    background-position: -255px;
   }
+
+  .box__ul{
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    height: 435px;
+    width: 301px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.box__li {
+  list-style-type: none;
+    width: 241px;
+    height: 72px;
+    padding: 12px 20px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.box__li--icon {
+  height: 60px;
+  width: 60px;
+}
 
   .specs__h1, .box__h1 {
     display: none;
@@ -84,16 +101,7 @@
     color: black;
   }
 
-  .box__ul{
-    /* position: absolute; */
-    display: flex;
-    flex-direction: column;
-    top: 120px;
-    z-index: 1000;
-    height: 100%;
-    width: 100%;
-    gap: 20px;
-}
+
 
 .specs{
   display: none;

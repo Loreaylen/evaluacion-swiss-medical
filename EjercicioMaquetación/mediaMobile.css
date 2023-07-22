@@ -16,15 +16,6 @@
   overflow: hidden;
 }
 
-.box__div img {
-  height: 414px;
-    object-fit: cover;
-    object-position: center;
-    position: relative;
-    top: 28px;
-    left: -203px;
-}
-
 
 .box__p {
 margin-bottom: 32px;

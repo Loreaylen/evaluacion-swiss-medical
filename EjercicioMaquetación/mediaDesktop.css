@@ -61,6 +61,7 @@
     width: 100%;
     margin: 40px 0;
   }
+
 .box__div  {
   height: auto;
   width: 100%;
@@ -68,14 +69,17 @@
   bottom: 80px;
 }
   .box__ul{
-    position: absolute;
+    position: relative;
+    top: 150px;
     display: flex;
-    flex-direction: column;
-    top: 300px;
-    z-index: 1000;
-    height: 100%;
-    width: 100%;
-    gap: 20px;
+    flex-direction: row;
+    height: 300px;
+    width: 513px;
+    padding: 0px 0px 0px 40px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
 }
 
 .box__img {
@@ -86,7 +90,16 @@
 
 .box__li {
   list-style-type: none;
+    min-width: 220px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-start;
 }
+
+
 
 .specs{
   display: none;

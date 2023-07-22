@@ -77,4 +77,17 @@
 .box__li {
   list-style-type: none;
 }
+
+.specs{
+  display: none;
+}
+
+
+.invisible {
+  display:none;
+}
+
+.visible {
+  display: flex;
+}
 }
